@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-css-demo",
+  "version": "1.0.0",
+  "description": "Just a sample Tailwind project",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwind build css/main.css -o www/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoeriNijs/tailwind-css-demo.git"
+  },
+  "author": "Yoeri Nijs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoeriNijs/tailwind-css-demo/issues"
+  },
+  "homepage": "https://github.com/YoeriNijs/tailwind-css-demo#readme",
+  "dependencies": {
+    "tailwindcss": "^1.0.5"
+  }
+}
